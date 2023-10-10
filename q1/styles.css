@@ -1,0 +1,101 @@
+#title {
+    text-align: center; /* Center-align the text within h1 */
+}
+
+#title img,
+#title span {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+#title span {
+    color: #464a4e; 
+    margin-right: 70px;
+    font-size: 45px;
+}
+
+.custom-hr {
+    width: 80%; 
+    height: 1px; 
+    background-color: #464a4e;
+    margin: 10px auto 40px auto;
+}
+
+.content-container {
+    text-align: center; /* Center-align the content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the columns */
+}
+
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    background-color: #FEC028;
+    margin-left: 15px;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.left-column h2 {
+    color: #464a4e; 
+}
+
+.right-column h2 {
+    color: #E6AA16;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+p {
+    color:#464a4e;
+}
+
+
+
+
+
+#profile_pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#icons{
+    width:16px;
+    height:16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+ul {
+    color: #464a4e; 
+    margin-left: -20px;
+    
+}
+#edu {
+    font-size: 14px;
+}
+
+ul p {
+    margin-top: 3px;
+}
+
+
+.cv-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #464a4e; 
+}
